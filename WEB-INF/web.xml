@@ -1,0 +1,39 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+	<display-name>Parts-hidden</display-name>
+	<description>parts_hidden</description>
+	<listener>
+        <listener-class>com.idega.parts.hidden.facets.PartsHiddenFacesInstaller</listener-class>
+    </listener>
+ 
+	<!-- Map these files with JSF -->
+	<servlet-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>/partshidden/*</url-pattern>
+	</servlet-mapping>
+	
+	<filter-mapping>
+		<filter-name>PartsHiddenIWBundleResourceFilter</filter-name>
+		<url-pattern>/partshidden/resources/*</url-pattern>
+	</filter-mapping>
+	
+<!-- MODULE:BEGIN org.apache.myfaces 0.0 -->
+<!-- MODULE:END org.apache.myfaces 0.0 -->
+
+<!-- MODULE:BEGIN com.idega.core 0.0 -->
+<!-- MODULE:END com.idega.core 0.0 -->
+
+<!-- MODULE:BEGIN com.idega.faces 0.0 -->
+<!-- MODULE:END com.idega.faces 0.0 -->
+
+<!-- MODULE:BEGIN org.apache.axis 0.0 -->
+<!-- MODULE:END org.apache.axis 0.0 -->
+
+<!-- MODULE:BEGIN com.idega.block.sso 0.0 -->
+<!-- MODULE:END com.idega.block.sso 0.0 -->
+
+</web-app>
