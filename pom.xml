@@ -123,6 +123,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.media</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.block.process</artifactId>
+    </dependency>
 
     <!-- Private modules -->
     <dependency>
