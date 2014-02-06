@@ -6,9 +6,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
 
 	<display-name>Parts-hidden</display-name>
 	<description>parts_hidden</description>
+	<!--  
 	<listener>
         <listener-class>com.idega.parts.hidden.facets.PartsHiddenFacesInstaller</listener-class>
     </listener>
+    -->
  
 	<!-- Map these files with JSF -->
 	<servlet-mapping>
