@@ -1,0 +1,18 @@
+<urlrewrite use-query-string="true">
+
+        <rule>
+            <from>^/supplier/*</from>
+            <to type="forward" last="true">/pages/supplier/$1</to>
+        </rule>
+        
+        <rule>
+            <from>^/product/*</from>
+            <to type="forward" last="true">/pages/product/$1</to>
+        </rule>
+        
+        <rule>
+            <from>^/contacts/*</from>
+            <to type="forward" last="true">/pages/contacts/$1</to>
+        </rule>
+
+</urlrewrite>
